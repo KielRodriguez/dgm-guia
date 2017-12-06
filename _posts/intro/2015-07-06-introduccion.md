@@ -76,7 +76,7 @@ La implementación de esta Guía será apoyada con recursos digitales, lineamien
             <td><p>2.3 Mejorar la disponibilidad y medios de distribución de los Datos Abiertos</p></td>
             <td><p>90 días naturales para la primera iteración, y de manera continua</p></td>
             <td>
-              <p>El estatus del cumplimiento de cada institución a la Política será publicado en: <a href="http://datos.gob.mx"target="_blank">datos.gob.mx</a>.</p>
+              <p>El estatus del cumplimiento de cada institución a la Política será publicado en: <a href="http://datos.gob.mx" target="_blank">datos.gob.mx</a>.</p>
             </td>
         </tr>
         <tr>
