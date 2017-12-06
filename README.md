@@ -25,4 +25,4 @@ Instala las gemas: `bundle install`
 % jekyll serve --watch --config _config.local.yml
 ```
 
-Ve a: `localhost:4000`
+Ve a: `localhost:4000/guia/`
