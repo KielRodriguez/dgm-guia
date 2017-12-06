@@ -581,3 +581,17 @@ p.cover-image                               { margin-top: 30px; text-align: cent
 
 
 dgm-navbar { height: 90px; }
+
+@media screen and (max-width: 525px) {
+    .navigation-item .item-hover p { padding: 8px; margin: 0; }
+    .navigation-item p { font-size: 12px; }
+    .guide p { line-height: 15px; }
+}
+@media screen and (max-width: 415px) {
+    .navigation-item {
+        width: 100%;
+    }
+    .navigation-item .item-hover p { padding: 10px; margin: 0; }
+    .navigation-item p { font-size: 15px; }
+    .guide p { line-height: 22px; }
+}

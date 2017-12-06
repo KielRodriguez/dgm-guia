@@ -62,6 +62,7 @@ var Site    = {
         Site._setSubscribe();
         Site._setToolData();
         Site._setVideo();
+        Site._setResize();
     },
 
     _alert          : function ( msg, type ) {
@@ -291,14 +292,17 @@ var Site    = {
             bottom  : ( img.height() ) / 2
         });
 
-        $( '.navigation-item' ).hover( function ( e ) {
-            $( '.item-hover', e.currentTarget ).slideToggle( function () {
+        $( '.navigation-item' ).mouseenter( function ( e ) {
+            $( '.item-hover', e.currentTarget ).slideDown( function () {
                 link    = $( '.link-center.first', e.currentTarget );
                 link.css({
                     bottom  : ( img.height() - link.height() ) / 2,
                     opacity : 1
                 }).removeClass( 'first' );
             });
+        });
+        $('.navigation-item').mouseleave(function (e) {
+            $('.item-hover', e.currentTarget).slideUp();
         });
 
         $( '.post-item' ).hover( function ( e ) {
@@ -433,6 +437,13 @@ var Site    = {
             e.preventDefault();
 
             $( '#home-video' ).slideToggle();
+        });
+    },
+
+    _setResize: function() {
+        $(window).resize(function() {
+            Site._setHovers();
+            Site._setSidebar();
         });
     }
 }
