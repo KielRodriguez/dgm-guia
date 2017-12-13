@@ -12,4 +12,4 @@ section: templates
 category: templates
 ---
 
-Descarga plantilla
+Descargar Plantilla
