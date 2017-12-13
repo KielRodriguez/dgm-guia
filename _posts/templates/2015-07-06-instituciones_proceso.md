@@ -1,6 +1,6 @@
 ---
 published: true
-order: 8
+order: 12
 
 title: Instituciones Prioritarias de la Infraestructura Estratégica de Datos Abiertos
 date: 2015-07-06
