@@ -1,6 +1,6 @@
 ---
 published: true
-order: 2
+order: 1
 
 title: Consejo Institucional de Datos Abiertos
 date: 2015-07-24

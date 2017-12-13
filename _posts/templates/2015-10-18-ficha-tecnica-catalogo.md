@@ -1,6 +1,6 @@
 ---
 published: true
-order: 10
+order: 5
 
 title: Ficha Técnica del Catálogo Institucional de Datos
 date: 2015-10-18
