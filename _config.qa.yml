@@ -6,6 +6,7 @@ description: >
   que el Gobierno de la República genera y recolecta.
 baseurl: "/guia"
 url: "https://10.20.55.7/"
+cdn_url: "https://cdn.datos.gob.mx/qa"
 twitter_username: jekyllrb
 twitter_text: "Descarga y utiliza libremente datos abiertos que el Gobierno de la República genera y recolecta. @GobRep @DatosGobMx"
 github_username:  mendozagioo

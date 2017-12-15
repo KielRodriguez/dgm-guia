@@ -3,6 +3,7 @@ title: Guía de Datos Abiertos para México
 email: hola@datos.gob.mx
 baseurl: "/guia"
 url: "http://localhost:4000"
+cdn_url: "https://cdn.datos.gob.mx/qa"
 twitter_username: jekyllrb
 github_username:  mxabierto
 

@@ -13,15 +13,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl | prepend: site.url }}">
     <!-- <link rel="import" href="{{ "/bower_components/polymer/polymer.html" | prepend: site.baseurl | prepend: site.url }}"> -->
-    {% if site.env == 'production' %}
-        <link rel = "import" href = "https://cdn.datos.gob.mx/bower_components/polymer/polymer.html" >
-        <link rel="import" href="https://cdn.datos.gob.mx/bower_components/dgm-navbar/dgm-navbar.html">
-        <link rel="import" href="https://cdn.datos.gob.mx/bower_components/dgm-footer/dgm-footer.html">
-    {% else %}
-        <link rel="import" href="https://cdn.datos.gob.mx/qa/bower_components/polymer/polymer.html">
-        <link rel="import" href="https://cdn.datos.gob.mx/qa/bower_components/dgm-navbar/dgm-navbar.html">
-        <link rel="import" href="https://cdn.datos.gob.mx/qa/bower_components/dgm-footer/dgm-footer.html">
-    {% endif %}
+    <link rel="import" href="{{ site.cdn_url }}/bower_components/polymer/polymer.html">
+    <link rel="import" href="{{ site.cdn_url }}/bower_components/dgm-navbar/dgm-navbar.html">
+    <link rel="import" href="{{ site.cdn_url }}/bower_components/dgm-footer/dgm-footer.html">
 
     <!-- Used libraries -->
     <link rel="stylesheet" href="{{ "/bower_components/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
