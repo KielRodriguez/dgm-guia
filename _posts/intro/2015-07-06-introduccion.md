@@ -4,6 +4,8 @@ layout: guide-post
 
 title: Introducción
 date: 2015-07-06
+prev_link: /
+next_link: /planea
 
 permalink: "/introduccion/index.html"
 section: intro
