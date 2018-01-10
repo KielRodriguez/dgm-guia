@@ -3,8 +3,6 @@
   "description": "DGM jekyll static blog",
   "dependencies": {
     "bootstrap": "^3.3.5",
-    "dgm-footer": "mxabierto/dgm-footer#latest",
-    "dgm-navbar": "mxabierto/dgm-navbar#latest",
     "js-cookie": "latest",
     "moment": "2.11.2"
   }
